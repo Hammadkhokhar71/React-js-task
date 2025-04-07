@@ -1,0 +1,65 @@
+.first1{
+    background-image: url("https://www.apple.com/v/home/cd/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_large.jpg");
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body {
+  
+    font-family: 'SF Pro Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.banner2 {
+    text-align: center;
+    padding-top: 45px;
+}
+.title2 {
+    font-size: 56px;
+    font-weight: bold;
+    color:white;
+}
+.subtitle2 {
+    font-size: 28px;
+    margin-top: 10px;
+    color: white;
+}
+.buttons2 {
+   
+    margin-top: 20px;
+    gap: 20px;
+    display: flex
+;
+    justify-content: center;
+}
+.btn2 {
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+   
+    display: inline-block;
+    transition: 0.3s ease;
+}
+.btn-primary2 {
+    background-color: #007aff;
+    color: white;
+    border: none;
+}
+.btn-primary2:hover {
+    background-color: #005ecb;
+}
+.btn-outline2 {
+    color: #005ecb;
+    border: 1px solid #005ecb;
+    background: transparent;
+}
+.btn-outline2:hover {
+    background-color: #005ecb;
+    color: white;
+}
