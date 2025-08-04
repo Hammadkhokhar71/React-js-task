@@ -33,16 +33,14 @@ body {
    
     margin-top: 20px;
     gap: 20px;
-    display: flex
-;
+    display: flex;
     justify-content: center;
 }
 .btn {
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 50px;
-    text-decoration: none;
-   
+    text-decoration: none; 
     display: inline-block;
     transition: 0.3s ease;
 }

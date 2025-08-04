@@ -4,21 +4,27 @@ import '../css/Ipaid.css';
 const Ipaid = () => {
   return (
     <div>
-     <div className='main-ipaid'>
-        <div className='ipaid-card-one'>
-          <div className='main-contant'>
-          <div className=''><img src="https://www.apple.com/v/home/cd/images/logos/ipad-air/promo_logo_ipadair__frwnnsqveeye_large.png" alt="" /></div>
-            <div className="event-section-two">
-                <p>Now Supercharged by the M3 chip</p>
-                <div className="buttons-btn">
-                    <a href="#" className="learn-more-btn">Learn more</a>
-                    <a href="#" className="buy-btn-one">Buy</a>
-                </div>
-                </div>
+      <div className="main-card">
+           <div className='card-2'>
+          <div class="product-section">
+            <h1>MacBook Air</h1>
+            <p>Sky blue color.</p>
+            <p>Sky high performance with M4.</p>
+            <div class="buttons">
+              <a href="#" class="learn-more">Learn more</a>
+              <a href="#" class="buy">Buy</a>
+            </div>
           </div>
         </div>
-        <div className='ipaid-card-two'></div>
-     </div>
+        <div className='card-1'>
+          <div class="event-section">
+            <p>Apple Worldwide Developers Conference.<br />Join us online June 9–13.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+     
+
+      </div>
     </div>
   )
 }

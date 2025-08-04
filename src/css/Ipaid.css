@@ -82,3 +82,26 @@
     background-color: white  !important;
     color: 0071e3  !important;
   }
+  .event-section-three {
+    color: white;
+}
+.main-heading{
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin-top: 53px;
+  text-align: center;
+}
+.main-text{
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin-top: 4px;
+text-align: center;
+
+}
+
