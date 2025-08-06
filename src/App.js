@@ -9,6 +9,7 @@ import Bannertwo from './Components/Bannertwo';
 import applelogo from '../src/logo-iphone.png';
 import Iphonecard from './Components/Iphonecard'; 
 import Ipaid from './Components/Ipaid'; 
+import Slider from './Components/Slider';
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
 />
        <Iphonecard/> 
        <Ipaid/>
-      <Text/>
+      {/* <Text/> */}
+      <Slider/>
       
     </>
   );
