@@ -1,0 +1,34 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.card {
+  min-width: 500px;
+  margin: 0 10px;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-info .tag {
+  display: block;
+  font-size: 12px;
+  opacity: 0.8;
+}

@@ -10,6 +10,7 @@ import applelogo from '../src/logo-iphone.png';
 import Iphonecard from './Components/Iphonecard'; 
 import Ipaid from './Components/Ipaid'; 
 import Slider from './Components/Slider';
+import Marque from './Components/Marque';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
        <Ipaid/>
       {/* <Text/> */}
       <Slider/>
+      <Marque/>
       
     </>
   );
