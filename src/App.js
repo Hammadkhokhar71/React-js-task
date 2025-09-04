@@ -11,6 +11,7 @@ import Iphonecard from './Components/Iphonecard';
 import Ipaid from './Components/Ipaid'; 
 import Slider from './Components/Slider';
 import Marque from './Components/Marque';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
       {/* <Text/> */}
       <Slider/>
       <Marque/>
+      <Footer/>
       
     </>
   );
