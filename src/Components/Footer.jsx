@@ -180,7 +180,37 @@ export default function Footer() {
             <li>Contact Apple</li>
           </ul>
         </div>
+        
       </div>
+     <div className="footer-bottom">
+      <p>
+        More ways to shop:{" "}
+        <a className="one" href="#">
+          Find an Apple Store
+        </a>{" "}
+        or{" "}
+        <a href="#">
+          other retailer
+        </a>{" "}
+        near you. Or call{" "}
+        <a className="one" href="tel:18006927753">
+          1-800-MY-APPLE
+        </a>{" "}
+        (1-800-692-7753).
+      </p>
+      <hr />
+      <p>
+        Copyright © 2025 Apple Inc. All rights reserved.
+        <span className="links">
+          <a href="#">Privacy Policy</a> |{" "}
+          <a href="#">Terms of Use</a> |{" "}
+          <a href="#">Sales and Refunds</a> |{" "}
+          <a href="#">Legal</a> |{" "}
+          <a href="#">Site Map</a>
+        </span>
+        <span className="country">United States</span>
+      </p>
+    </div>
     </footer>
   );
 }

@@ -32,6 +32,13 @@
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
 }
+.footer-bottom{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0px 16px 20px;
+  font-size: 11px;
+  color: #6e6e73;
+}
 
 .footer-column {
   min-width: 140px;
@@ -58,3 +65,48 @@
 .footer-list li:hover {
   text-decoration: underline;
 }
+.footer-bottom {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #666;
+  background: #f5f5f7;
+  padding: 20px 16px 7px 16px;
+}
+
+.footer-bottom p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.footer-bottom a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+.one{
+  color:rgb(0, 102, 204) !important;
+  
+}
+
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+.footer-bottom .links {
+  margin-left: 10px;
+}
+
+.footer-bottom .links a {
+  margin: 0 5px;
+}
+
+.footer-bottom .country {
+  float: right;
+}
+
