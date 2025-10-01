@@ -63,4 +63,168 @@
   .navbar.scrolled {
     background-color: rgba(54, 54, 54, 0.8); 
   }
+  /* Navbar */
+.navbar {
+  background: #000;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.nav-links a:hover {
+  color: #2997ff;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  gap: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Mega Menu */
+.mega-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100vw;
+  background: #111;
+  color: #fff;
+  padding: 40px 120px;
+  display: flex;
+  justify-content: flex-start;
+  animation: fadeIn 0.25s ease-in-out;
+}
+
+.mega-content {
+  display: flex;
+  gap: 80px;
+}
+
+.mega-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.mega-col h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.mega-col a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.2s;
+}
+
+.mega-col a:hover {
+  color: #2997ff;
+}
+
+.mega-col .sub-links a {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Mega Menu */
+.mega-menu {
+  position: fixed;  /* <-- fixed use karo */
+  top: 44px;        /* navbar height ke neeche start hoga */
+  left: 0;
+  width: 100%;
+  background: #111;
+  color: #fff;
+  padding: 40px 120px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 80px;
+  animation: fadeIn 0.25s ease-in-out;
+  z-index: 999;
+}
+
+.mega-content {
+  display: flex;
+  gap: 100px;
+  width: 100%;
+  max-width: 1400px; /* center limit jesa Apple ka hota hai */
+  margin: 0 auto;
+}
+
+.mega-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.mega-col h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.mega-col a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.2s;
+}
+
+.mega-col a:hover {
+  color: #2997ff;
+}
+
+.mega-col .sub-links a {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+
   
