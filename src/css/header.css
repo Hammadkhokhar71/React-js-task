@@ -225,6 +225,61 @@
   color: #ccc;
   margin-top: 8px;
 }
+svg path {
+    fill: white;
+    stroke: white;
+}
 
+  /* Mega Menu */
+.mega-menu {
+  position: fixed;
+  top: 44px;              /* navbar ke neeche */
+  left: 0;
+  width: 100vw;           /* full screen width */
+  background: #111;
+  color: #fff;
+  padding: 40px 0;        /* top-bottom padding */
+  display: flex;
+  justify-content: center; /* center align container */
+  animation: fadeIn 0.25s ease-in-out;
+  z-index: 999;
+}
 
-  
+/* Mega Menu Content (centered like Apple site) */
+.mega-content {
+  display: flex;
+  gap: 80px;
+  width: 100%;
+  max-width: 1200px;       /* Apple ki tarah ek limit */
+  margin: 0 auto;
+  padding: 0 60px;         /* side spacing */
+  justify-content: flex-start;
+}
+
+/* Columns */
+.mega-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.mega-col h4 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #86868b;
+  margin-bottom: 12px;
+}
+
+.mega-col a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+  line-height: 1.4;
+}
+
+.mega-col a:hover {
+  color: #2997ff;
+}
